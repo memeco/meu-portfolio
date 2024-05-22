@@ -7,7 +7,7 @@ function Sobre() {
     <section id="sobre" className="py-5">
       <div className="container">
         <h2>Sobre mim</h2>
-        <img
+        <image
           id="foto"
           src="https://avatars.githubusercontent.com/u/3230685?v=4"
           alt="Emerson Marques Pedro (Memeco)"
@@ -16,8 +16,8 @@ function Sobre() {
         <br />
         <br />
         <p>
-          Meu nome é Emerson Marques Pedro, também conhecido como "Memeco",
-          tenho 37 anos e sou{" "}
+          Meu nome é Emerson Marques Pedro, também conhecido como
+          &&quot;Memeco&quot;, tenho 37 anos e sou{" "}
           <a href="https://i.imgur.com/1M9VA7B.jpg">
             sociólogo e cientista político pela USP (2010)
           </a>

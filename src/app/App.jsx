@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css"; // Importe seu arquivo style.css aqui
-import Sobre from "./components/Sobre";
-import RedesSociais from "./components/RedesSociais";
-import Portfolio from "./components/Portfolio";
-import Contato from "./components/Contato";
-import Skills from "./components/Skills";
-import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton";
-import Certificado from "./components/Certificado";
+import Sobre from "/components/Sobre";
+import RedesSociais from "/components/RedesSociais";
+import Portfolio from "/components/Portfolio";
+import Contato from "/components/Contato";
+import Skills from "/components/Skills";
+import ScrollToTopButton from "/components/ScrollToTopButton/ScrollToTopButton";
+import Certificado from "/components/Certificado";
 
 function App() {
   return (

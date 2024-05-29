@@ -1,1 +1,1 @@
-Meu portfólio feito em Next e Bootstrap no GitHub Pages: https://memeco.github.io
+Meu portfólio feito em Next e Bootstrap no GitHub Pnpm run deages: https://memeco.github.io

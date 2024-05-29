@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
 
   return (
     <div className="scroll-to-top">
-      {isVisible && <div onClick={scrollToTop}>Scroll to Top</div>}
+      {isVisible && <div onClick={scrollToTop}>Ir para o topo ↑</div>}
     </div>
   );
 };

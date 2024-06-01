@@ -1,17 +1,17 @@
 import React from "react";
-import ScrollToTopButton from "./components/ScrollToTopButton";
-import Sobre from "./components/Sobre";
-import RedesSociais from "./components/RedesSociais";
-import Portfolio from "./components/Portfolio";
-import Contato from "./components/Contato";
-import Skills from "./components/Skills";
-import Certificado from "./components/Certificado";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Sobre from "../components/Sobre";
+import RedesSociais from "../components/RedesSociais";
+import Portfolio from "../components/Portfolio";
+import Contato from "../components/Contato";
+import Skills from "../components/Skills";
+import Certificado from "../components/Certificado";
 import "../../public/style.css"; // Ajuste o caminho conforme necessário
 
 const Home = () => {
   return (
     <div>
-      <ScrollToTopButton />
+      <ScrollToTop />
       <header>
         <div className="container">
           <h1>Meu portfólio</h1>

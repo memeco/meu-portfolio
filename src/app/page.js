@@ -1,11 +1,12 @@
+"use client";
 import React from "react";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-import Sobre from "../components/Sobre";
-import RedesSociais from "../components/RedesSociais";
-import Portfolio from "../components/Portfolio";
-import Contato from "../components/Contato";
-import Skills from "../components/Skills";
-import Certificado from "../components/Certificado";
+import ScrollToTop from "./pages/components/ScrollToTopButton/ScrollToTopButton";
+import Sobre from "./pages/components/Sobre";
+import RedesSociais from "./pages/components/RedesSociais";
+import Portfolio from "./pages/components/Portfolio";
+import Contato from "./pages/components/Contato";
+import Skills from "./pages/components/Skills";
+import Certificado from "./pages/components/Certificado";
 import "../../public/style.css"; // Ajuste o caminho conforme necessário
 
 const Home = () => {

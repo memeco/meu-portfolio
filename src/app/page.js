@@ -7,7 +7,7 @@ import Portfolio from "./pages/components/Portfolio";
 import Contato from "./pages/components/Contato";
 import Skills from "./pages/components/Skills";
 import Certificado from "./pages/components/Certificado";
-import "../../public/style.css"; // Ajuste o caminho conforme necessário
+import "../../public/style.css"; // Ajuste o caminho conforme necessário"
 
 const Home = () => {
   return (

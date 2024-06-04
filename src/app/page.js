@@ -7,16 +7,26 @@ import Portfolio from "./pages/components/Portfolio";
 import Contato from "./pages/components/Contato";
 import Skills from "./pages/components/Skills";
 import Certificado from "./pages/components/Certificado";
-import "../../public/style.css"; // Ajuste o caminho conforme necessário"
-import _document from "./pages/_document";
+import Head from "next/head";
+import bootstrap from "../../public/bootstrap.min.css";
 
 const Home = () => {
   return (
     <div>
+      <Head>
+        <title>Meu portfólio</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous"
+        />
+      </Head>
       <ScrollToTop />
       <header>
         <div className="container">
           <h1>Meu portfólio</h1>
+          <bootstrap></bootstrap>
           <p>
             <a
               id="english"

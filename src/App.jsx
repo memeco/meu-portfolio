@@ -1,12 +1,12 @@
 import React from "react";
-import "./style.css"; // Importe seu arquivo style.css aqui
-import Sobre from "/components/Sobre";
-import RedesSociais from "/components/RedesSociais";
-import Portfolio from "/components/Portfolio";
-import Contato from "/components/Contato";
-import Skills from "/components/Skills";
-import ScrollToTopButton from "/components/ScrollToTopButton/ScrollToTopButton";
-import Certificado from "/components/Certificado";
+import "./pages/style.css"; // Importe seu arquivo style.css aqui
+import Sobre from "./app/pages/components/Sobre";
+import RedesSociais from "./app/pages/components/RedesSociais";
+import Portfolio from "./app/pages/components/Portfolio";
+import Contato from "./app/pages/components/Contato";
+import Skills from "./app/pages/components/Skills";
+import ScrollToTopButton from "./app/pages/components/ScrollToTopButton/ScrollToTopButton";
+import Certificado from "./app/pages/components/Certificado";
 
 function App() {
   return (

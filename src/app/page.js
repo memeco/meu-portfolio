@@ -8,13 +8,14 @@ import Contato from "./pages/components/Contato";
 import Skills from "./pages/components/Skills";
 import Certificado from "./pages/components/Certificado";
 import Head from "next/head";
+import Link from "next/link";
 import bootstrap from "../../public/bootstrap.min.css";
 
 const Home = () => {
   return (
     <div>
       <Head>
-        <title>Meu portfólio</title>
+        <title>Emerson (Memeco) Marques Pedro</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -25,10 +26,10 @@ const Home = () => {
       <ScrollToTop />
       <header>
         <div className="container">
-          <h1>Meu portfólio</h1>
+          <h1>Emerson (Memeco) Marques Pedro</h1>
           <bootstrap></bootstrap>
           <p>
-            <a
+            <Link
               id="english"
               href="https://memeco-github-io.translate.goog/?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=pt-BR&_x_tr_pto=wapp"
               style={{ color: "white", background: "black" }}
@@ -42,7 +43,7 @@ const Home = () => {
               }}
             >
               Switch to English.
-            </a>
+            </Link>
           </p>
         </div>
       </header>
@@ -63,12 +64,17 @@ const Home = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#sobre" title="Sobre" alt="Sobre">
+                <Link
+                  className="nav-link"
+                  href="#sobre"
+                  title="Sobre"
+                  alt="Sobre"
+                >
                   Sobre
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link"
                   href="https://github.com/memeco/memeco.github.io/blob/gh-pages/Emerson_Marques_Pedro_CV_2024-PTBr.pdf"
                   title="Meu CV"
@@ -77,52 +83,52 @@ const Home = () => {
                   rel="noopener noreferrer"
                 >
                   Meu CV
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link"
                   href="#skills"
                   title="Skills"
                   alt="Skills"
                 >
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link"
                   href="#redes"
                   title="Redes Sociais"
                   alt="Redes Sociais"
                 >
                   Redes Sociais
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link"
                   href="#portfolio"
                   title="Meu portfólio"
                   alt="Meu portfólio"
                 >
                   Meu portfólio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link"
                   href="#certificado"
                   title="Meus certificados"
                   alt="Meus certificados"
                 >
                   Meus certificados{" "}
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contato" title="Contato">
+                <Link className="nav-link" href="#contato" title="Contato">
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
